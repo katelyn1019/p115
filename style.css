@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(205, 205, 205);
+}
+
+#head {
+    width: 200px;
+    height:50 ;
+    font-size:25px ;
+}
+
+canvas {
+    animation-name: lights ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lights{
+    from{
+    box-shadow:1px 1px 250px rgb(51, 204, 255);
+    }
+    to{
+     box-shadow:1px 1px 250px rgb(0, 207, 0) ;
+    }
+}
